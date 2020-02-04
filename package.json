@@ -1,0 +1,27 @@
+{
+  "name": "serverless-generator",
+  "version": "1.0.0",
+  "description": "Generator scripts and tools for serverless applications",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasbozzo/serverless-generator.git"
+  },
+  "author": "José Tomás Bozzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasbozzo/serverless-generator/issues"
+  },
+  "homepage": "https://github.com/tomasbozzo/serverless-generator#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "shelljs": "^0.8.3"
+  }
+}
